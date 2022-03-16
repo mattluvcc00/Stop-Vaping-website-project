@@ -9,3 +9,30 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
     background-color: lightpink
 }
+a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: #5b417b;
+  }
+  
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  a:active {
+    color: white;
+  }
+  input[type=submit]{
+    background-color:hotpink;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  input[type=sumbit]:active {
+
+    background-color: hotpink;
+  }
+  input[type=text]{
+    background-color:pink;
+  }
