@@ -36,3 +36,22 @@ a:link {
   input[type=text]{
     background-color:pink;
   }
+
+  .biggertext{
+    font-size: 160%;
+  }
+  .imageright{
+    float:right;
+  }
+  .imageleft{
+    float:left;
+  }
+  .mediumtext{
+    font-size:130%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    iframe{
+      height:50px
+    }
+  }
